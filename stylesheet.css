@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'ADRENALINE';
+    src: url('ADRENALINE.woff2') format('woff2'),
+        url('ADRENALINE.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
