@@ -9,21 +9,24 @@ Now you can either read below or read the Reddit post to figure out how to do th
 
 ## How to do this
 
-#### Find the font you want and download it
+<ul>
+ <li>Find the font you want and download it.</li>
 
-#### Use Transfonter or some other @font-face generator as long as you have two file types, woff and woff2. 
-##### Upload the font you downloaded 
-##### Leave everything as is
+ <li>Use Transfonter or some other @font-face generator as long as you have two file types, woff and woff2. </li>
+ <ul>
+ <li>Upload the font you downloaded </li>
+ <li>Leave everything as is</li></ul>
 
-#### Upload the files from Transfonter to a new repository in Github.
+ <li>Upload the files from Transfonter to a new repository in Github.</li>
 
-#### For each font file, there should be two (woff and woff2), copy their link and paste each at GitHack.
+ <li>For each font file, there should be two (woff and woff2), copy their link and paste each at GitHack.</li>
 
-#### Copy the link on the left side or "the link for production." That link, for each file, goes into spreadsheet.css. woff link goes with woff and woff2 link goes with woff2. Hit commit and let it do its thing.
+ <li>Copy the link on the left side or "the link for production." That link, for each file, goes into spreadsheet.css. woff link goes with woff and woff2 link goes with woff2. Hit commit and let it do its thing.</li>
 
-#### Now go to the spreadsheet.css file and copy its link. We're going back to GitHack and paste it. Then copy the link on the left for "production."
+ <li>Now go to the spreadsheet.css file and copy its link. We're going back to GitHack and paste it. Then copy the link on the left for "production."</li>
 
-#### Now we move to where you want the font to be used (at least this part is for HTML). Here's the code. Everything with a [word] is to be replaced by your stuff.
+ <li>Now we move to where you want the font to be used (at least this part is for HTML). Here's the code. Everything with a [word] is to be replaced by your stuff.</li>
+</ul>
 ```html
 <link href="[link_to_cdn_of_stylesheet" rel="stylesheet">
 
