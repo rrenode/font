@@ -27,6 +27,7 @@ Now you can either read below or read the Reddit post to figure out how to do th
 
  <li>Now we move to where you want the font to be used (at least this part is for HTML). Here's the code. Everything with a [word] is to be replaced by your stuff.</li>
 </ul>
+
 ```html
 <link href="[link_to_cdn_of_stylesheet" rel="stylesheet">
 
